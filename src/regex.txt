@@ -1,0 +1,5 @@
+(\[[0-9]{1,2}:[0-9]{1,2}\.[0-9]{1,2}\])+[^\[\]]+  Matches each sentense and its times
+
+[0-9]{1,2}:[0-9]{1,2}(\.[0-9]{1,2}){0,1} Matches the times of each sentense
+
+[^\[\]]+$ Matches the sentense itself
